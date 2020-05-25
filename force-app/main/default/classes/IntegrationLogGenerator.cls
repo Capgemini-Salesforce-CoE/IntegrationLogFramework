@@ -28,6 +28,20 @@ public without sharing class IntegrationLogGenerator {
             }
         }
     }
+
+    /*******************************************************************************************************************
+    * @Author:      Tirthankar (Capgemini COE)  
+    * @Date:        25/05/2020
+    * @Description: creates integration log records for each callout simplified arguments
+    * @Revision(s): [Date] - [Change Reference] - [Changed By] - [Description]   
+    ********************************************************************************************************************/
+    public static void generateIntegrationLog(HttpRequest request, HttpResponse response, Map<String, String> headerParamsMap) {
+        generateIntegrationLog(request.getEndpoint(), request.getMethod(),
+                                                        headerParamsMap,
+                                                        request.getBody(), 
+                                                        response.getStatusCode(), response.getStatus(), 
+                                                        response.getBody());
+    }
     
     /*******************************************************************************************************************
     * @Author:      Tirthankar (Capgemini COE)  
