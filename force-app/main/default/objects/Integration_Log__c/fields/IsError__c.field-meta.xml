@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>IsError__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Flag for any automation provision - In Default it will set to true if Response Code is not 200</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Flag for any automation provision - In Default it will set to true if Response Code is not 200</inlineHelpText>
+    <label>Is Error</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

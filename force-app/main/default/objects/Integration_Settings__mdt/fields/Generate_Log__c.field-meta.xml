@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Generate_Log__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>External Switch to Turn ON/OFF logging of Integration payload at Log Object (Recommended to TURN ON at Production)</description>
+    <externalId>false</externalId>
+    <fieldManageability>SubscriberControlled</fieldManageability>
+    <label>Generate Log</label>
+    <type>Checkbox</type>
+</CustomField>
